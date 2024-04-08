@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body style="background-color: rgb(92, 44, 120);"> 
+<link rel="stylesheet" href="RCP.css">
+
+<div class="allElements-div allElementDiv-js">
+   <h1 style="color: rgb(218, 203, 203);">Rock Paper Scissor</h1>
+   <p style="color:rgb(253, 248, 248);"><b>Click</b>  imogi to star play</p>
+
+    <img class="rock-html" src="icons/Rock-emoji.png" onclick="
+    makeMove('Rock')
+    ">
+    <img class="paper-html" src="icons/Paper-emoji.png"onclick="
+   makeMove('Paper')
+    ">
+ <img class="scissor-html" src="icons/Scissor-emoji.png"onclick="
+    makeMove('Scissor')
+
+ ">
+ 
+<div class="picks-div">
+
+<div class="You"></div>
+<p class="picks-User"></p>
+<div class="pc"></div>
+<div class="picks-Pc"></div>
+</div>
+<p class="js-moves-chosen"></p>
+<div class="scores-div">
+<div class="results-Div"></div>
+<div class="scores-Div"></div>
+<button class="autoplayButton" onclick="autoplay()">Auto play</button>
+<button class="resetScore" onclick="resetScore()">Reset Score</button>
+
+</div> 
+
+</div>
+<script src="RCP.js">
+ 
+
+</script>
+</body>
+</html>
