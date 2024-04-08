@@ -75,8 +75,8 @@
         const movesElement = document.querySelector('.picks-User');
         movesElement.innerHTML = `
         You
-        <img src="icons/${playerMove}-emoji.png" class="move-icon">
-        <img src="icons/${computerMove}-emoji.png" class="move-icon">
+        <img src="${playerMove}-emoji.png" class="move-icon">
+        <img src="${computerMove}-emoji.png" class="move-icon">
         Computer
         `; 
         updateScoreElement();
